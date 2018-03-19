@@ -1,0 +1,27 @@
+<html>
+   <body>
+       
+      <form action="/api/sms-promotion" method="post" id="bonus_form">
+		<div>
+			Please enter your phone number to get a bonus code
+		</div>
+		<div>
+			<label for="tel">Phone number:</label> 
+			<input id="tel" name="tel" type="tel" placeholder="+35799900011" minlength="9" maxlength="16" required>
+		</div>
+        <div>
+			<input id="imover" type="checkbox" name="imover" value="true" title="You must be 18 years of age or older to participate" required>	 
+				I'm over 18
+		</div>
+ 
+        <div> 				 
+			<input id="terms" type="checkbox" name="terms" value="true" title="Please accept the Terms and Conditions before proceeding" required>
+				I accept the Terms and Conditions
+		</div>
+        <div>
+			<input type="submit" value="Submit">
+		</div>
+      </form>
+
+   </body>
+</html>
